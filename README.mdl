@@ -1,0 +1,33 @@
+# readme
+
+The map and later schedule for LDF service design subfestival
+## technologies
+
+The product will be a one page static web app to mximise the ease of serving it with our resources, and to prevent sope creep. 
+
+Compilation will be handled at the backend by guard, with the guard-copy guard-sass, sass and guard-haml, because these are the tools the dev likes, and they work well in this instance.
+
+Frontend will be frameworkless js with jquery for ease of coding, and mapbox providing the maps for ease of use, good free plan and great customisability. 
+
+Other technologies will be incorperated as nessecary. 
+
+## roadmap
+### current state
+
+architechture and spec written
+
+
+### initial release(minimal viable, yeah, you get the drift)
+
+- load a set of events from a geojson file of events with locations
+- from each geojson object build a description, cutymapper and google maps links, and place them into mapbox.
+
+### second release
+
+- searchable events
+- individual links to events. 
+
+### third release
+
+- pulling data automatically from the google spreadhseet
+- store a list of events the person has "marked" as wanting to attend in localstorage and the map would allow them to view by date and time as well. 
