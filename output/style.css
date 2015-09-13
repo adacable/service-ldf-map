@@ -44,3 +44,31 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+html, body, #map {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%; }
+  #map .leaflet-popup-content-wrapper {
+    background-color: #D7DDDD;
+    border-radius: 0px; }
+    #map .leaflet-popup-content-wrapper a {
+      color: #9A1C20; }
+  #map .leaflet-popup-tip {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #D7DDDD; }
+
+.popupImage {
+  width: 100%; }
+
+.addressLink {
+  display: block; }

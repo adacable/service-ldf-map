@@ -1,12 +1,15 @@
 !!!
-%head
-    %title
-        layout test
-    %link{:rel=>"stylesheet",:type=>"text/css",:href=>"./css/style.css"}
-    %script{:src =>"./jquery.min.js"}
-    %script{:src =>"'https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js"}
-    %script{:src =>"./interaction.js"}
-    %script{:src =>"./events.json"}
-%body
-    .hgroup
-    .map-wrap
+%html
+    %head
+        %title
+            layout test
+        %link{:rel=>"stylesheet",:type=>"text/css",:href=>"./style.css"}
+        %meta{:name=>'viewport', :content => 'initial-scale=1,maximum-scale=1,user-scalable=no'}
+        %style
+        %link{:rel=>"stylesheet",:type=>"text/css",:href=>"https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css"}
+        %script{:src =>"./jquery.min.js"}
+        %script{:src =>"https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js"}
+        %script{:src =>"./actions.js"}
+        %script{:src =>"./events.js"}
+    %body
+        #map
