@@ -24,17 +24,17 @@ events = {
         type: "Feature",
         geometry: {
             type: "Point",
-            coordinates: [ -0.108278,51.508347]
+            coordinates: [ -0.108182,51.508269]
         },
         properties: { 
             "marker-color": "#00ff00",
-            eventName: "Working with government",//must exist, be under 20ch
+            eventName: "'Working with government' and 'WHAT IS SERVICE DESIGN?'",//must exist, be under 20ch
             eventTime: "2012-04-23T18:25:43.511Z", //must exist
             eventImage: "https://img.evbuc.com/https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F15447833%252F22818968422%252F1%252Foriginal.jpg%3Frect%3D0%252C77%252C3264%252C1632%26s%3Db87e49e11ef7eda5d2ce101f094e95b1?w=1000&s=cce7fc715576991efaf4a104e7a99e05",//can be blank
             eventLink:  "https://www.eventbrite.co.uk/e/working-with-government-tickets-18606456412",//can be blank
             eventOrganizer: "Lior smith", //can be blank
             eventAddress: " Oxo Tower Wharf, Barge House Street,London , Gt Lon SE1 9PH ",//cannot be blank
-            eventDescription : "A trio of talks about working with government.",
+            eventDescription : "On friday, A trio of talks about working with government. On Saturday morning we'll be discussing and critiquing what service design is, and what it can be",
             }
     },
 {
@@ -52,23 +52,6 @@ events = {
             eventOrganizer: "", //can be blank
             eventAddress: " The Thirsty Bear, 62 Stamford Street, Blackfriars, London, SE1 9LX",//cannot be blank
             eventDescription : "Having a busy week at the London Design Festival? Come for a drink to relax and share what you saw. The Service Design Drink is a free gathering for people are are practicing or studying Service Design. In a pub, over a beer, have a good chat with someone who shares the same passion :)",
-            }
-    },
-{
-        type: "Feature",
-        geometry: {
-            type: "Point",
-            coordinates: [ -0.107,51.508347]
-        },
-        properties: { 
-            "marker-color": "#00ff00",
-            eventName: "WHAT IS SERVICE DESIGN?",//must exist, be under 20ch
-            eventTime: "2012-04-23T18:25:43.511Z", //must exist
-            eventImage: "https://img.evbuc.com/https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F15565090%252F22818968422%252F1%252Foriginal.jpg%3Frect%3D0%252C109%252C1330%252C665%26s%3D500c2911cbd4afed7cc25ec6fa103dd4?w=480&s=3806e05e0578b7f56135ce1c33a4b031",//can be blank
-            eventLink:  "https://www.eventbrite.co.uk/e/working-with-government-tickets-18606456412k",
-            eventOrganizer: "Lior smith", //can be blank
-            eventAddress: " Oxo Tower Wharf, Barge House Street,London , Gt Lon SE1 9PH ",//cannot be blank
-            eventDescription : "A trio of talks about working with government.",
             }
     },
 	{
